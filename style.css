@@ -1,0 +1,52 @@
+body {  
+  text-align: center;
+  background-color: #5d615d;
+}
+h1 { font-weight: 100; font-size: 2.5em;}
+#content { 
+width: 100%; 
+margin: 0 auto; 
+margin-top: 5%; 
+text-align: center; 
+font-family: 'Helvetica Neue', arial; 
+font-weight: 100;
+}
+div.mag-ball {
+background: linear-gradient(to right, rgb(255, 0, 140), rgb(168, 50, 50), rgb(255, 115, 0), green, cyan, blue, rgb(130, 213, 238));
+border: 1px solid black;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+margin: 0 auto;
+margin-bottom: 5%;
+margin-top: 5%;
+}
+div.answer {
+background-color:rgb(255, 0, 140), rgb(168, 50, 50), rgb(255, 115, 0), green, cyan, blue, rgb(130, 213, 238);
+border: 1px solid rgb(255, 0, 140), rgb(168, 50, 50), rgb(255, 115, 0), green, cyan, blue, rgb(130, 213, 238);
+border-radius: 50%;
+width: 50%;
+height: 50%;
+margin: 25% auto;
+}
+p#mag {
+font-size: 5em;
+margin: 20% auto;
+color: white;
+}
+p#answer {
+padding: 15%;
+color: rgb(0, 0, 0);
+height: 100px;
+text-align: center;
+font-size: 3vh;
+}
+#question {
+margin: 1%;
+padding: 1%;
+width: 20%;
+font-size:100%;
+}
+#info {
+font-size: 100%;
+}
